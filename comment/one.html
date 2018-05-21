@@ -1,0 +1,120 @@
+<html>
+	<head>
+
+	<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<link href="bg.css" rel="stylesheet" media="screen">
+
+			    <!-- jQuery -->
+		<script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+	    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">JuzCode</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                    <li>
+                        <a href="logout.php">Log Out</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav><br/><br/><br/><br/>
+<div id=box1>
+
+<form class="form-horizontal" action="cmnt.php" method="post">
+<fieldset>
+
+<!-- Form Name -->
+<center><legend>Query Section</legend></center>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="regno"></label>  
+  <div class="col-md-4">
+  <input id="regno" name="regno" placeholder="Reg no/Mob no" class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="username"></label>  
+  <div class="col-md-4">
+  <input id="username" name="username" placeholder="Name" class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="comment"></label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="comment" name="comment" placeholder="Enter comment here.."></textarea>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="button1"></label>
+  <div class="col-md-4">
+    <center><button id="button1" name="button1" class="btn btn-success">Submit</button></center>
+  </div>
+</div>
+
+</fieldset>
+</form>
+</div><br/><br/>
+<div id=box2>
+<form class="form-horizontal" action="viewreply.php" method="post">
+<fieldset>
+
+<!-- Form Name -->
+<center><legend>Reply Section</legend></center>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="regno"></label>  
+  <div class="col-md-4">
+  <input id="regno" name="regno" placeholder="Reg no/Mob no" class="form-control input-md" required="" type="text">
+    
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="button1"></label>
+  <div class="col-md-4">
+    <center><button id="button1" name="button1" class="btn btn-danger">Submit</button></center>
+  </div>
+</div>
+
+</fieldset>
+</form>
+</div>
+
+
+
+	</body>
+<html>

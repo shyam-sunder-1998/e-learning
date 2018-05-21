@@ -1,0 +1,13 @@
+<html>
+<body>
+<p>sandeep</p><!-- Start VideoLightBox.com BODY section -->
+	<div class="videogallery">
+	<a class="voverlay" href="http://www.youtube.com/v/5Uh1KxcpWz0?autoplay=1&rel=0&enablejsapi=1&playerapiid=ytplayer" title="Innovation"><img src="samp_videolb/thumbnails/0.png" alt="Innovation" /><span></span></a>
+<a class="voverlay" href="http://www.youtube.com/v/NugRZGDbPFU?autoplay=1&rel=0&enablejsapi=1&playerapiid=ytplayer" title="WHERE GOOD IDEAS COME FROM by Steven Johnson"><img src="samp_videolb/thumbnails/1.png" alt="WHERE GOOD IDEAS COME FROM by Steven Johnson" /><span></span></a>
+<a class="voverlay" href="http://www.youtube.com/v/HhFxQlDPjaY?autoplay=1&rel=0&enablejsapi=1&playerapiid=ytplayer" title="Do you dare to dream?"><img src="samp_videolb/thumbnails/2.png" alt="Do you dare to dream?" /><span></span></a><span class="videolb"><a href="http://videolightbox.com">video embed code</a> by VideoLightBox.com v3.1</span>
+	</div>
+	<script src="samp_videolb/jquery.tools.min.js" type="text/javascript"></script>
+	<script src="samp_videolb/videolightbox.js" type="text/javascript"></script>
+	<!-- End VideoLightBox.com BODY section -->
+</body>
+</html>

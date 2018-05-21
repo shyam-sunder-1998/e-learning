@@ -1,0 +1,18 @@
+body {
+background-image: url(aaa.jpg); /*You will specify your image path here.*/
+
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top center !important;
+background-repeat: no-repeat !important;
+background-attachment: fixed;
+}
+#container{
+	width:800px; 
+	margin:0 auto;
+	border:1px solid black;
+	border-radius:3px;
+	background-color:white; 
+	margin-top:60px;
+}

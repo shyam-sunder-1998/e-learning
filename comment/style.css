@@ -1,0 +1,143 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body {
+background-image: url(css/images/aaa.jpg); /*You will specify your image path here.*/
+
+-moz-background-size: cover;
+-webkit-background-size: cover;
+background-size: cover;
+background-position: top center !important;
+background-repeat: no-repeat !important;
+background-attachment: fixed;
+}
+#container1{
+	width:650px; 
+	margin:0 auto;
+	margin-top:80px;
+	height:400px;
+    border:1px solid black;
+	background-color:white;
+	border-radius: 15px;
+	box-shadow: 10px 10px 5px #888888;
+	background-color:#fcfcfc;
+}
+#container2{
+	width:650px; 
+	margin:0 auto;
+	height:250px;
+	border:1px solid black;
+	background-color:white;
+	border-radius: 15px;
+	box-shadow: 10px 10px 5px #888888;
+	background-color:#fcfcfc;
+}
+#box{
+	border-bottom: 3px solid #34495e;
+	background-color:#fcfcfc;
+}
+#regno{
+	margin-left:100px;
+	box-shadow: 0 2px 0 #e6e6e6;
+	height: 40px;
+	padding-left: 10px;
+	width: 400px;
+}
+#uname{
+	margin-left: 100px;
+	box-shadow: 0 2px 0 #e6e6e6;
+	height: 40px;
+	padding-left: 10px;
+	width: 400px;
+	
+}
+textarea{
+	margin-left: 100px;
+	box-shadow: 0 2px 0 #e6e6e6;
+	height: 40px;
+	padding-left: 10px;
+	width: 400px;
+	height:100px;	
+	
+}
+#cmntbox{
+	width:800px;
+	height:auto;	
+	margin:0 auto;
+	 
+}
+div.wrap {
+    width: 90%;
+    margin: 0 auto 1em auto;
+    position: relative;
+}
+
+div.wrap:first-child {
+    margin-top: 1em;
+}
+
+div.comment {
+    font-size: 1em;
+    position: relative;
+    margin-left: 60px;
+    border-radius: 0.75em 0.75em 0.75em 0.75em;
+    background-color:#fcfcfc;
+    line-height: 1.4em;
+    font-family: Helvetica;
+}
+
+div.comment::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border: 10px solid transparent;
+    border-right: 10px solid #fcfcfc;
+    margin: -10px 0 0 -20px;
+}
+
+div.owner {
+    width: 90%;
+	color:black;
+    margin: 0 auto;
+    border-bottom: 1px solid #34495e;
+	font-family: "Times New Roman", Times, serif;
+}
+
+div.comment p {
+    width: 90%;
+    margin: 0 auto 1em auto;
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+img {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    float: left;
+    border-radius: 10px;
+    margin-top: -25px;
+}
+
+p + div.postscript {
+    width: 80%;
+    font-size: 0.8em;
+    margin: -0.5em auto 0 auto;
+}
+div.postscript::after {
+    content: '';
+    height: 0.5em;
+    display: block;
+    clear: both;
+}
+div.postscript li {
+    float: left;
+    margin-right: 0.5em;
+}
+div.postscript li.date {
+    float: right;
+    margin-right: 0;
+}
+
